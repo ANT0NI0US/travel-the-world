@@ -1,0 +1,62 @@
+.city {
+  padding: 15px;
+  background-color: var(--color-dark--2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .city {
+    width: 500px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.city h6 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--color-light--1);
+}
+
+.city h3 {
+  font-size: 1.3rem;
+  display: flex;
+  gap: 5px;
+}
+
+.city h3 span {
+  font-size: 1.5rem;
+}
+
+.city p {
+  font-size: 1.3rem;
+}
+
+.city a:link,
+.city a:visited {
+  font-size: 1.3rem;
+  color: var(--color-brand--1);
+  transition: all 0.3s;
+  &:hover {
+    color: var(--color-brand--2);
+  }
+}
+
+.btnContainer {
+  margin-left: auto;
+}

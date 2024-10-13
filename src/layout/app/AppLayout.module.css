@@ -1,0 +1,11 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 991px) {
+  .app {
+    flex-direction: column;
+  }
+}

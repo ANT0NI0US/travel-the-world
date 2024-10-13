@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: start;
+}
+
+.product h2 {
+  font-size: 2rem;
+}
+
+.product p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .product {
+    text-align: center;
+  }
+
+  .product h2 {
+    font-size: 1.5rem;
+  }
+
+  .product p {
+    font-size: 1rem;
+  }
+}
