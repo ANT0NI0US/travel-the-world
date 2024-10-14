@@ -132,8 +132,6 @@ function CitiesProvider({ children }) {
 
     try {
       const docRef = await addDoc(collection(db, "cities"), city);
-      console.log(docRef);
-
       dispatch({
         type: "city/created",
         payload: { id: docRef.id, ...city },
