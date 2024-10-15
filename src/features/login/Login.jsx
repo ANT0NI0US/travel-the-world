@@ -48,7 +48,9 @@ export default function Login() {
         </div>
 
         <div className={styles.btnCont}>
-          <Button type="primary">Login</Button>
+          <Button Label="login" type="primary">
+            Login
+          </Button>
         </div>
       </form>
     </div>

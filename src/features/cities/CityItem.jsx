@@ -28,7 +28,11 @@ export default function CityItem({ city }) {
 
         <div className={styles.parties}>
           <time className={styles.date}>({formatDate(date)})</time>
-          <button className={styles.deleteBtn} onClick={handleClick}>
+          <button
+            aria-label="delete city"
+            className={styles.deleteBtn}
+            onClick={handleClick}
+          >
             &times;
           </button>
         </div>

@@ -45,7 +45,7 @@ export default function Map() {
     <div className={styles.mapContainer}>
       <User />
       {!geolocationPosition && (
-        <Button type="position" onClick={getPosition}>
+        <Button Label="current Position" type="position" onClick={getPosition}>
           {isLoadingPosition ? "Loading..." : "Use your position"}
         </Button>
       )}

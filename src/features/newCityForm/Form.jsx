@@ -123,7 +123,7 @@ export default function Form() {
         </div>
 
         <div className={styles.buttons}>
-          <Button type="primary">Add</Button>
+          <Button Label="add new city" type="primary">Add</Button>
           <BackButton />
         </div>
       </form>

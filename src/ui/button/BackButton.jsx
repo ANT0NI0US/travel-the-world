@@ -6,6 +6,7 @@ export default function BackButton() {
 
   return (
     <Button
+      Label="back"
       type="back"
       onClick={(e) => {
         e.preventDefault();
