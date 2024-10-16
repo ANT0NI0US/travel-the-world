@@ -14,7 +14,7 @@ export default function User() {
 
   return (
     <div className={styles.user}>
-      <img src={user.avatar} alt={user.name} />
+      <img loading="lazy" src={user.avatar} alt={user.name} />
       <span>Welcome, {user.name}</span>
       <Button Label="logout" type="primary" onClick={handleClick}>
         Logout

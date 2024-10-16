@@ -1,7 +1,7 @@
 .homeLayout {
   min-height: 100vh;
   background-image: linear-gradient(rgba(36, 42, 46, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/bg.jpg");
+    url("https://i.ibb.co/xzcY0Np/bg.webp");
   background-size: cover;
   background-position: center;
 }
